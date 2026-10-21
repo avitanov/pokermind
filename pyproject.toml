@@ -1,0 +1,23 @@
+[project]
+name = "pokermind"
+version = "0.1.0"
+description = "PokerMind"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb==1.5.9",
+    "jupyterlab==4.6.2",
+    "langfuse==4.14.0",
+    "langchain-text-splitters==1.1.2",
+    "litellm==1.93.0",
+    "pypdf==6.14.2",
+    "python-dotenv==1.2.2",
+    "sentence-transformers==5.6.0",
+    "pytest==9.1.1",
+    "strands-agents[openai,otel]==1.46.0",
+    "strands-agents-tools==0.8.4",
+    "pandas==3.0.5",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
